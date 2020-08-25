@@ -15,6 +15,7 @@ configure_package_config_file(
   ${CMAKE_CURRENT_SOURCE_DIR}/cmake/OSGFMConfig.cmake.in ${CMAKE_CURRENT_BINARY_DIR}/OSGFMConfig.cmake
   INSTALL_DESTINATION lib/cmake/OSGFM)
 
+add_subdirectory(examples)
 add_subdirectory(include)
 add_subdirectory(lib)
 
